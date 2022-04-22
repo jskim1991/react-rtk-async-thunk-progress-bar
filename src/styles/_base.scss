@@ -1,0 +1,36 @@
+$font-primary: 'Cafe24SsurroundAir', sans-serif;
+
+$color-dark: #121828;
+$color-navbar-hover: #10B981;
+$color-secondary: #5048E5;
+$color-white: #FFFFFF;
+$color-grey-dark: #374151;
+$color-grey-medium: #6B7280;
+$color-grey-medium-light: #a3a3b6;
+$color-grey-light: #F9FAFC;
+$color-table-header: #F3F4F6;
+$color-navy: #184da2;
+
+$header-height: 6rem;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: $color-dark;
+  background-color: $color-grey-light;
+  font-family: $font-primary;
+}
